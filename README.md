@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### v1 Basic blog page
 
-## Getting Started
+1. show list of blogs in /blog page [DONE]
 
-First, run the development server:
+2. On click of blog page got to /blog/[title] page. and show to blog content [DONE]
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+3. Blog content to accept text paragraphs [DONE]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### v2 Blog Content Refinement
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Blog card and blog content should accept image content [DONE]
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+2. Blog card and blog content should accept url content [DONE]
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+3. Blog card and blog content should accept html/rich content [PROGRESS]
+   COMMENT 1: Use a package to input rich text.
 
-## Learn More
+### v2.2 Blog Content DB 1
 
-To learn more about Next.js, take a look at the following resources:
+1. Using json server [DONE]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### v3 Edit Blog page.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. create a new page
+2. remove a page
+3. edit a page
+   3.1 add a component
+   3.2 remove a component
+   3.3 edit content
+   3.4 change position of component
 
-## Deploy on Vercel
+### v4 Styling of the website
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### v5 CMS in dashboard
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### v4 Social Media, Video and Comment feature
+
+### v3 Login Page to see dashboard
+
+1. User Login page
+
+1. header
+2. Image
+3. paragraph
+4. links
+5. author
+6. comment sections
+7. social media

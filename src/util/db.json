@@ -1,0 +1,279 @@
+{
+  "blogList": [
+    {
+      "id": 1,
+      "blogId": 100,
+      "title": "My First Blog",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "url": "my-first-blog"
+    },
+    {
+      "id": 2,
+      "blogId": 101,
+      "title": "My Second Blog",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. ",
+      "url": "my-second-blog"
+    },
+    {
+      "id": 3,
+      "blogId": 103,
+      "title": "My Third Blog",
+      "description": " If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. ",
+      "url": "my-third-blog"
+    },
+    {
+      "id": 4,
+      "blogId": 104,
+      "title": "How to make the perfect cup of Coffee",
+      "description": "Drinking in the day’s first sip of coffee is like paradise massaging the taste buds.",
+      "url": "how-to-make-the-perfect-cup-of-coffee"
+    },
+
+    {
+      "id": 5,
+      "blogId": 105,
+      "title": "Vivek and Amrit Corp.",
+      "description": "Drinking in the day’s first sip of coffee is like paradise massaging the taste buds.",
+      "url": "vivek-and-amrit"
+    }
+  ],
+
+  "blogs": [
+    {
+      "id": 100,
+      "url": "my-first-blog",
+      "title": "My First Blog",
+      "description": [
+        {
+          "value": "This is my first blog. And I am creating it using NextJS.",
+          "type": "text",
+          "order": 1
+        },
+        {
+          "value": "This is my first blog. And I am creating it using NextJS.",
+          "type": "text",
+          "order": 2
+        },
+        {
+          "value": "This is my first blog. And I am creating it using NextJS.",
+          "type": "text",
+          "order": 3
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": 101,
+      "url": "my-second-blog",
+      "title": "My Second Blog",
+      "createdAt": "24th July, 2022",
+      "author": "Amrit K Sahu",
+      "description": [
+        {
+          "value": "Heading 1",
+          "type": "text",
+          "variant": "H1 Heading",
+          "order": 1
+        },
+        {
+          "value": "Heading 2",
+          "type": "text",
+          "variant": "H2 Heading",
+          "order": 1
+        },
+        {
+          "value": "Heading 3",
+          "type": "text",
+          "variant": "H3 Heading",
+          "order": 1
+        },
+        {
+          "value": "Heading 4",
+          "type": "text",
+          "variant": "H4 Heading",
+          "order": 1
+        },
+        {
+          "value": "Heading 5",
+          "type": "text",
+          "variant": "H5 Heading",
+          "order": 1
+        },
+        {
+          "value": "Heading 6",
+          "type": "text",
+          "variant": "H6 Heading",
+          "order": 1
+        },
+        {
+          "value": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ",
+          "type": "text",
+          "variant": "paragraph",
+          "order": 1
+        },
+        {
+          "src": "https://www.google.com",
+          "value": "EXTERNAL LINK",
+          "type": "link",
+          "variant": "external",
+          "order": 2
+        },
+        {
+          "src": "/blog",
+          "value": "INTERNAL LINK",
+          "type": "link",
+          "variant": "internal",
+          "order": 2
+        },
+        {
+          "src": "https://cdn.searchenginejournal.com/wp-content/uploads/2019/08/c573bf41-6a7c-4927-845c-4ca0260aad6b-760x400.jpeg",
+          "value": "why image?",
+          "variant": "full-width-image",
+          "type": "image",
+          "align": "center",
+          "order": 1
+        },
+        {
+          "src": "https://cdn.searchenginejournal.com/wp-content/uploads/2019/08/c573bf41-6a7c-4927-845c-4ca0260aad6b-760x400.jpeg",
+          "value": "why image?",
+          "variant": "half-width-image",
+          "type": "image",
+          "align": "center",
+          "order": 1
+        },
+        {
+          "src": "https://cdn.searchenginejournal.com/wp-content/uploads/2019/08/c573bf41-6a7c-4927-845c-4ca0260aad6b-760x400.jpeg",
+          "value": "why image?",
+          "variant": "quarter-width-image",
+          "type": "image",
+          "align": "right",
+          "order": 1
+        },
+
+        {
+          "value": "",
+          "type": "rich",
+          "order": 3
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": 102,
+      "url": "my-third-blog",
+      "title": "My Third Blog",
+      "description": [
+        {
+          "value": "This is my third blog. And I am creating it using NextJS.",
+          "type": "text",
+          "order": 1
+        },
+        {
+          "value": "This is my third blog. And I am creating it using NextJS.",
+          "type": "text",
+          "order": 2
+        },
+        {
+          "value": "This is my third blog. And I am creating it using NextJS.",
+          "type": "text",
+          "order": 3
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": 104,
+      "url": "how-to-make-the-perfect-cup-of-coffee",
+      "title": "HOW TO MAKE THE PERFECT CUP OF COFFEE",
+      "description": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0723/6423/t/27/assets/coffee-grounds-cta_300x.jpg?v=88317860055475783711625626987",
+          "value": "binocular",
+          "variant": "half-width-image",
+          "type": "image",
+          "align": "center",
+          "order": 3
+        },
+        {
+          "value": "Drinking in the day’s first sip of coffee is like paradise massaging the taste buds. It is, as one coffee-in-a-can company figured out long ago, the best part of waking up. For a single moment at your favorite coffee shop, or while your fingers hug your favorite mug in the kitchen, you’ve been taken to the scene of your last vacation – the day’s worries momentarily melting away, letting you breathe in the serenity of sunshine just as the caffeine smacks your brain.",
+          "type": "text",
+          "order": 1
+        },
+        {
+          "value": "Realizing that is exactly why getting the first cup of the day right is so important for any coffee-lover. Nail that perfect cup once, and you won’t want to go back.",
+          "type": "text",
+          "order": 2
+        },
+        {
+          "value": "In brief, making the perfect cup of coffee will require three elements, above all else: the right water, the right roast and – this is the biggie – your attention. Tempting as it may be to throw your grinds in a Mr. Coffee machine and walk away, it likely won’t produce the results you’re looking for. Show your coffee some love in the brewing process, though, and it’ll give you heaping amounts – or at least a few tablespoons worth – of love in return.",
+          "type": "text",
+          "order": 3
+        },
+        {
+          "value": "Below, find the highlights of what you need to know to brew the perfect cup of coffee.",
+          "type": "text",
+          "order": 3
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0723/6423/t/27/assets/find-your-roast.jpg?v=35401231527010719501625626987",
+          "value": "binocular",
+          "variant": "full-width-image",
+          "type": "image",
+          "align": "center",
+          "order": 3
+        },
+        {
+          "value": "FINDING THE RIGHT ROAST",
+          "type": "text",
+          "variant": "H4 Heading",
+          "order": 1
+        },
+        {
+          "value": "Fact: There really is no precise rule on when a roasted coffee is best consumed. But you can count on a fresh roast producing a quality result. What you’ll want to do in the search for the right roast and roast age is ask questions of who’s selling you the roast. Some coffees (many of them, actually) are ones you’ll want to consume within five days of their roast date for optimal results, while many more are fairly consistent in quality for about a month after the roast date. But what flavors you extract are entirely dependent on how porous the beans become over time and how they react to water. And that’s a giant “question mark” even the most talented barista can’t erase. If you want to know if your beans are stale, though, pay attention to how it pours in the cup. If you’re not seeing a head – that slight foam that bubbles at the top of your cup – you’ve likely waited too long to use your coffee.",
+          "type": "text",
+          "order": 3
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0723/6423/t/27/assets/waterfall2.jpg?v=173361567416757895231625626992",
+          "value": "binocular",
+          "variant": "full-width-image",
+          "type": "image",
+          "align": "center",
+          "order": 3
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": 105,
+      "url": "vivek-and-amrit",
+      "title": "Vivek and Amrit",
+      "description": [
+        {
+          "value": "This is my first blog. And I am creating it using NextJS.",
+          "type": "text",
+          "order": 1
+        },
+        {
+          "value": "This is my first blog. And I am creating it using NextJS.",
+          "type": "text",
+          "order": 2
+        },
+        {
+          "value": "This is my first blog. And I am creating it using NextJS.",
+          "type": "text",
+          "order": 3
+        }
+      ],
+      "published": true
+    }
+  ],
+
+  "admins": [
+    {
+      "id": 100,
+      "username": "test",
+      "password": "test"
+    }
+  ]
+}
